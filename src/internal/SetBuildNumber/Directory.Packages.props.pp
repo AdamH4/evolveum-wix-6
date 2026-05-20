@@ -3,9 +3,9 @@
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
 
-  <!-- Pinned versions to address security vulnerabilities in transitive dependencies. Review as dependencies update. -->
+  <!-- Suppress advisories for packages where no fixed version exists and the package is not loaded at runtime. -->
   <ItemGroup>
-    <PackageVersion Include="System.Private.Uri" Version="4.3.2" />
+    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-5f2m-466j-3848" />
   </ItemGroup>
 
   <ItemGroup>
