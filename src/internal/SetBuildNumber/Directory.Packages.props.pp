@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <CentralPackageTransitivePinningEnabled>false</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
 
   <!-- Pinned versions to address security vulnerabilities in transitive dependencies. Review as dependencies update. -->
