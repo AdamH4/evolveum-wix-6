@@ -74,10 +74,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageVersion Include="NuGet.Credentials" Version="6.13.0" />
-    <PackageVersion Include="NuGet.Packaging" Version="6.13.0" />
-    <PackageVersion Include="NuGet.Protocol" Version="6.13.0" />
-    <PackageVersion Include="NuGet.Versioning" Version="6.13.0" />
+    <PackageVersion Include="NuGet.Credentials" Version="6.13.1" />
+    <PackageVersion Include="NuGet.Packaging" Version="6.13.1" />
+    <PackageVersion Include="NuGet.Protocol" Version="6.13.1" />
+    <PackageVersion Include="NuGet.Versioning" Version="6.13.1" />
   </ItemGroup>
 
   <!--
