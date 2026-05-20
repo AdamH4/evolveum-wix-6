@@ -32,6 +32,11 @@
     <NuGetAuditLevel>low</NuGetAuditLevel>
   </PropertyGroup>
 
+  <!-- No fixed version of System.Private.Uri exists on NuGet; it is not loaded at runtime for net8.0 or net472. -->
+  <ItemGroup>
+    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-5f2m-466j-3848" />
+  </ItemGroup>
+
   <PropertyGroup>
     <Authors Condition=" '$(WixOfficialBuild)'!='true' ">WiX Dev Build</Authors>
     <Authors Condition=" '$(WixOfficialBuild)'=='true' ">WiX Toolset Team</Authors>

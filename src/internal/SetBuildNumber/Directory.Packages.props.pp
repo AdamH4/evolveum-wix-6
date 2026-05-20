@@ -3,11 +3,6 @@
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
 
-  <!-- Suppress advisories for packages where no fixed version exists and the package is not loaded at runtime. -->
-  <ItemGroup>
-    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-5f2m-466j-3848" />
-  </ItemGroup>
-
   <ItemGroup>
     <PackageVersion Include="WixToolset.Dtf.Compression" Version="{packageversion}" />
     <PackageVersion Include="WixToolset.Dtf.Compression.Cab" Version="{packageversion}" />
