@@ -412,5 +412,12 @@ src/test/burn/TestData/Manual/BundleB/PackagePayloads
 !src/dtf/test/WixToolset.Dtf.Compression.Cab
 !src/dtf/test/WixToolsetTests.Dtf.Compression.Cab
 
+# Allow pre-built mergemod.dll binaries shipped with wixnative
+!src/wix/wixnative/x64/
+!src/wix/wixnative/x86/
+!src/wix/wixnative/Win32/
+!src/wix/wixnative/ARM/
+!src/wix/wixnative/ARM64/
+
 #ignore the Sandbox
 src/test/sandbox/
