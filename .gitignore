@@ -408,6 +408,7 @@ src/test/burn/TestData/Manual/BundleB/PackagePayloads
 !src/Directory.Build.rsp
 
 # Allow the projects that end in ".Cab"
+!src/dtf/WixToolset.Dtf.Compression.Cab
 !src/dtf/test/WixToolset.Dtf.Compression.Cab
 !src/dtf/test/WixToolsetTests.Dtf.Compression.Cab
 
